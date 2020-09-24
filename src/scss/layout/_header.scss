@@ -7,8 +7,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border:solid 2px black;
-  background-image:url(../../images/cover.jpg);
+  background-image:url(../images/cover.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -18,24 +17,50 @@
   &__menu {
     align-self:flex-start;
     position:fixed;
-    border: solid 3px red;
+    background-color:$colorMenu;
     width: 44px;
     height: 44px;
-    background-image:url(../../images/icons/ico-menu.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+
   }
   &__title {
-    position:relative;
+    display:flex;
+    flex-direction:column;
     margin: 284px 15px 174px 15px;
-    color:black;
+    line-height: 1.31;
+    color:white;
     text-align: center;
+    font-family:$fontTitle;
+    text-transform: uppercase;
   }
+  
+    & .quote {
+      padding-top:10px;
+      text-transform: capitalize;
+      font-family:$fontText;
+    }
+    
+  
 
    &__button {
-    position: relative;
+    width: 45px;
+    height:45px;
+    position:absolute;
     bottom: 50px;
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22.5px;
+    
    }
   
   }
+  
    
 
 
