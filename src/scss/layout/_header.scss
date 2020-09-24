@@ -1,5 +1,6 @@
 
 .header {
+  width: 100%;
   height: 100vh;
   max-height: 568px;
   display: flex;
@@ -11,5 +12,20 @@
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+
+  &__menu {
+    align-self:flex-start;
+    position:fixed;
+  }
+  &__title {
+    position:relative;
+    padding: 284px 15px 174px 15px;
+    color:black;
+    text-align: center;
+
+    &__button {
+      
+    }
+  }
    
 }
