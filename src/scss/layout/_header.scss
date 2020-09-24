@@ -8,24 +8,34 @@
   justify-content: space-between;
   align-items: center;
   border:solid 2px black;
-  background-image: url(../../images/cover.jpg);
+  background-image:url(../../images/cover.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 
+  
+  
   &__menu {
     align-self:flex-start;
     position:fixed;
+    border: solid 3px red;
+    width: 44px;
+    height: 44px;
+    background-image:url(../../images/icons/ico-menu.svg);
   }
   &__title {
     position:relative;
-    padding: 284px 15px 174px 15px;
+    top: 70px;
     color:black;
     text-align: center;
 
-    &__button {
-      
-    }
+   &__button {
+    position: relative;
+    top: -40px;
+   }
+  
   }
    
 }
+
+
