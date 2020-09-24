@@ -1,0 +1,14 @@
+.section1 {
+    height:387px;
+    width:100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+    &__article1 {
+        border:solid red 3px;
+        background-color: orange;
+    }
+}
