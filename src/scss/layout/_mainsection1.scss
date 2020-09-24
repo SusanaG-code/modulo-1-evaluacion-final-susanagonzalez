@@ -18,12 +18,10 @@
     }
     &__h2 {
         font-family:$fontTitle;
-        width:300px;
         font-size:24px;
         text-transform: capitalize;
     }
     &__p {
-        width:250px;
         font-family:$fontText;
         text-transform: capitalize;
         font-size:18px;
@@ -35,6 +33,7 @@
         border-radius: 76px;
         color: $colorButton;
         border-color: $colorButton;
+        border:solid 2px;
         font-family:$fontButton;
         font-size:20px;
         background: none;   
