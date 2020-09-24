@@ -1,7 +1,6 @@
 .section1 {
     height: 376px;
     width: 100%;
-    background-color: yellow;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -20,9 +19,14 @@
     &__h2 {
         font-family:$fontTitle;
         width:300px;
+        font-size:24px;
         text-transform: capitalize;
     }
     &__p {
         width:250px;
+        font-family:$fontText;
+        text-transform: capitalize;
+        font-size:18px;
+        color:$colorTextparagraph;
     }
 }
