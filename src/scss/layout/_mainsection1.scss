@@ -10,7 +10,7 @@
 
 
     &__h5 {
-        font-family:$fontText;
+        font-family:$colorLight;
         text-transform: capitalize;
         color: $colorSection;
         font-size: 14px;
@@ -37,7 +37,7 @@
         border-color: $colorButton;
         font-family:$fontButton;
         font-size:20px;
-        
+        background: none;   
 
     }
 }
