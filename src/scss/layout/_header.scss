@@ -30,7 +30,7 @@
   &__title {
     display:flex;
     flex-direction:column;
-    margin: 250px 15px 174px 15px;
+    padding: 250px 15px 174px 15px;
     line-height: 1.31;
     color:white;
     text-align: center;
@@ -65,8 +65,28 @@
    }
   
   }
-  
+
+
+
+  @media all and (min-width:768px) {
+
+    .header {
+      max-height:768px;
+      border:solid blue 3px;
+    
+
+    &__title {
+      margin: -90px 15px 174px 15px;
+      
+    }
+    & .header__h1 {
+      font-size:80px;
+      
+    }
+  }
+}
    
 
 
 
+  

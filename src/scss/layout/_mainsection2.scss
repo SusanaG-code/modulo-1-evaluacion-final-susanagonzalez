@@ -17,18 +17,23 @@
             width:184px;
             height:45px;
             background-color:$colorButton;
+            color:$colorTextheader;
             border-radius: 22.5px;
             font-family:$fontButton;
             font-size:20px;
-            color:$colorTextheader;
             border:none;
             position:relative;
             top: 30px;
             left:70px;
             
-   
+  &:hover {
+    background-color: $colorMenu;
+    transition: background-color 1s ease-in;
+}
+  }     
+            
         }
-    }
+    
 
 .wrapper {
     display: grid;
