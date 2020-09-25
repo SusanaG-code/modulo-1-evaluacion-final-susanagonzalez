@@ -3,6 +3,9 @@
   width: 100%;
   height: 100vh;
   max-height: 568px;
+  @media all and (min-width:768px) {
+    max-height:768px;
+  }
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -31,6 +34,9 @@
     display:flex;
     flex-direction:column;
     padding: 250px 15px 174px 15px;
+    @media all and (min-width:768px) {
+      padding: 150px 15px 174px 15px;
+    }
     line-height: 1.31;
     color:white;
     text-align: center;
@@ -40,12 +46,19 @@
 
   & .header__h1 {
     font-size:42px;
+    @media all and (min-width:768px) {
+      font-size:80px;
+    }
   }
   
     & .quote {
       padding-top:10px;
       text-transform: capitalize;
       font-family:$fontText;
+      font-size:16px;
+      @media all and (min-width:768px) {
+        font-size:24px;
+      }
     }
     
   
@@ -66,25 +79,6 @@
   
   }
 
-
-
-  @media all and (min-width:768px) {
-
-    .header {
-      max-height:768px;
-      border:solid blue 3px;
-    
-
-    &__title {
-      margin: -90px 15px 174px 15px;
-      
-    }
-    & .header__h1 {
-      font-size:80px;
-      
-    }
-  }
-}
    
 
 
