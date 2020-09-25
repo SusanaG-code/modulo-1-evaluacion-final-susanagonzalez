@@ -10,14 +10,13 @@
     @media all and (min-width:768px) {
         flex-direction: row;  
     }
-    align-items: baseline;
+    align-items: center;
     background-color: $colorFooter;
     position:relative;
 
     &__button {
         width:45px;
         height: 45px;
-        border:solid red 1px;
         background-color: $colorTextheader;
         border-radius: 22.5px;
         display:flex;
@@ -76,20 +75,13 @@ color: $colorTextheader;
        
    }
 
-
- 
-
-
-   
-
-
 &__link {
     text-decoration: none;
     color:inherit;
 }
 
 .heart {
-    color:red;
+    color:$colorButton;
 }
 }
 
