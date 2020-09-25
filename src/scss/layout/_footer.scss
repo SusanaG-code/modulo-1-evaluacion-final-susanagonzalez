@@ -76,12 +76,11 @@ color: $colorTextheader;
     @media all and (min-width:768px){
         align-items: initial;
     }
+    @media all and (min-width:768px) {
+        order:1; 
+      }
    color: $colorTextheader;
-   @media all and (min-width:768px) {
-       order:1; 
-     }
-       
-       
+          
    }
 
 &__link {
