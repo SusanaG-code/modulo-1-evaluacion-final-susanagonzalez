@@ -6,6 +6,23 @@
     justify-content: space-around;
     align-items:center;
     background-color: $colorFooter;
+    position:relative;
+
+    &__button {
+        width:45px;
+        height: 45px;
+        border:solid red 1px;
+        background-color: $colorTextheader;
+        border-radius: 22.5px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top:-20px;
+        border:none;
+}
+    
 
 &__events {
 list-style: none;
@@ -36,10 +53,11 @@ color: $colorTextheader;
    color: $colorTextheader;
    
 }
-}
+
 
 .heart {
     color:red;
+}
 }
 
 
