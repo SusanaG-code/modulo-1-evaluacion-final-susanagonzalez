@@ -67,6 +67,7 @@
     @media all and (min-width:768px) {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    grid-gap: 10px;
     }
 
     padding: 0 68px;
@@ -75,6 +76,7 @@
     }
     @media all and (min-width:1200px) {
     padding: 0 85px;
+    
     
 }
 }
